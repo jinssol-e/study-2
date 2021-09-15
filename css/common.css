@@ -1,0 +1,10 @@
+/* common.css 공통 css */
+.blind { /*대체텍스트처리*/
+    position:absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.inner {width:90%; margin: 0 auto; position: relative; }
+.tit {font-size: 1.8em; font-weight: 600; line-height: 1.1em;}
